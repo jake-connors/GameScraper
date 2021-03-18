@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50126BF925925E01002DD19C /* ApexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50126BF825925E01002DD19C /* ApexViewController.swift */; };
+		50126BFB25926201002DD19C /* ValorantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50126BFA25926200002DD19C /* ValorantViewController.swift */; };
+		50158DBE257D9BF800C9D7F7 /* Notes (To Do).rtf in Resources */ = {isa = PBXBuildFile; fileRef = 50158DBD257D9BF800C9D7F7 /* Notes (To Do).rtf */; };
+		50158DC0257DACE800C9D7F7 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50158DBF257DACE800C9D7F7 /* CustomButton.swift */; };
+		50158DC3257DD1B600C9D7F7 /* OverbuffTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50158DC2257DD1B600C9D7F7 /* OverbuffTabBarViewController.swift */; };
+		50158DC6257DD22E00C9D7F7 /* OverbuffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50158DC5257DD22E00C9D7F7 /* OverbuffViewController.swift */; };
+		50158DC8257DD23D00C9D7F7 /* OverbuffPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50158DC7257DD23D00C9D7F7 /* OverbuffPage2ViewController.swift */; };
+		50CA7810259277F3008FFD9C /* ApexTrackerGGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CA780F259277F3008FFD9C /* ApexTrackerGGViewController.swift */; };
+		50CA78122592807E008FFD9C /* ValorantTrackerGGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CA78112592807E008FFD9C /* ValorantTrackerGGViewController.swift */; };
+		50E4D38525747D03005F69BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E4D38425747D03005F69BF /* AppDelegate.swift */; };
+		50E4D38725747D03005F69BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E4D38625747D03005F69BF /* SceneDelegate.swift */; };
+		50E4D38925747D03005F69BF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E4D38825747D03005F69BF /* HomeViewController.swift */; };
+		50E4D38E25747D07005F69BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E4D38D25747D07005F69BF /* Assets.xcassets */; };
+		50E4D39125747D07005F69BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E4D38F25747D07005F69BF /* LaunchScreen.storyboard */; };
+		50E4D39C25747D07005F69BF /* GameScraperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E4D39B25747D07005F69BF /* GameScraperTests.swift */; };
+		50E4D3A725747D07005F69BF /* GameScraperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E4D3A625747D07005F69BF /* GameScraperUITests.swift */; };
+		50E4D3B5257490C9005F69BF /* OwViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E4D3B4257490C9005F69BF /* OwViewController.swift */; };
+		50E4D3B7257498B2005F69BF /* OwTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E4D3B6257498B2005F69BF /* OwTrackerViewController.swift */; };
+		50E4D3B92577335C005F69BF /* OwTrackerTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E4D3B82577335C005F69BF /* OwTrackerTabBarViewController.swift */; };
+		50E4D3BE2578822F005F69BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E4D3BC2578822F005F69BF /* Main.storyboard */; };
+		50E4D3C02579F8A2005F69BF /* OwTrackerPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E4D3BF2579F8A2005F69BF /* OwTrackerPage2ViewController.swift */; };
+		5577A3D2815C09E13F4D0A29 /* Pods_GameScraper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D662DDE0616F6D8AFDEBEB91 /* Pods_GameScraper.framework */; };
+		5DDBA5B3B71D21E93244E404 /* Pods_GameScraperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3F3473A7BB768568FF4A2F /* Pods_GameScraperTests.framework */; };
+		AE50A3038EDAB5FFFEC1D89E /* Pods_GameScraperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E2D6F3046ED40A190C2EAF /* Pods_GameScraperUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50E4D39825747D07005F69BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50E4D37925747D03005F69BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50E4D38025747D03005F69BF;
+			remoteInfo = GameScraper;
+		};
+		50E4D3A325747D07005F69BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50E4D37925747D03005F69BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50E4D38025747D03005F69BF;
+			remoteInfo = GameScraper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02406CCA83D6F833EE0764B9 /* Pods-GameScraperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameScraperUITests.debug.xcconfig"; path = "Target Support Files/Pods-GameScraperUITests/Pods-GameScraperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B1A1353A8DEF00E0C224D4D /* Pods-GameScraperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameScraperUITests.release.xcconfig"; path = "Target Support Files/Pods-GameScraperUITests/Pods-GameScraperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		30E2D6F3046ED40A190C2EAF /* Pods_GameScraperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameScraperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50126BF825925E01002DD19C /* ApexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexViewController.swift; sourceTree = "<group>"; };
+		50126BFA25926200002DD19C /* ValorantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorantViewController.swift; sourceTree = "<group>"; };
+		50158DBD257D9BF800C9D7F7 /* Notes (To Do).rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Notes (To Do).rtf"; sourceTree = "<group>"; };
+		50158DBF257DACE800C9D7F7 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		50158DC2257DD1B600C9D7F7 /* OverbuffTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverbuffTabBarViewController.swift; sourceTree = "<group>"; };
+		50158DC5257DD22E00C9D7F7 /* OverbuffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverbuffViewController.swift; sourceTree = "<group>"; };
+		50158DC7257DD23D00C9D7F7 /* OverbuffPage2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverbuffPage2ViewController.swift; sourceTree = "<group>"; };
+		50CA780F259277F3008FFD9C /* ApexTrackerGGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexTrackerGGViewController.swift; sourceTree = "<group>"; };
+		50CA78112592807E008FFD9C /* ValorantTrackerGGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorantTrackerGGViewController.swift; sourceTree = "<group>"; };
+		50E4D38125747D03005F69BF /* GameTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E4D38425747D03005F69BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50E4D38625747D03005F69BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		50E4D38825747D03005F69BF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		50E4D38D25747D07005F69BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50E4D39025747D07005F69BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50E4D39225747D07005F69BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E4D39725747D07005F69BF /* GameScraperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameScraperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E4D39B25747D07005F69BF /* GameScraperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScraperTests.swift; sourceTree = "<group>"; };
+		50E4D39D25747D07005F69BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E4D3A225747D07005F69BF /* GameScraperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameScraperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E4D3A625747D07005F69BF /* GameScraperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScraperUITests.swift; sourceTree = "<group>"; };
+		50E4D3A825747D07005F69BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E4D3B4257490C9005F69BF /* OwViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwViewController.swift; sourceTree = "<group>"; };
+		50E4D3B6257498B2005F69BF /* OwTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwTrackerViewController.swift; sourceTree = "<group>"; };
+		50E4D3B82577335C005F69BF /* OwTrackerTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwTrackerTabBarViewController.swift; sourceTree = "<group>"; };
+		50E4D3BD2578822F005F69BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50E4D3BF2579F8A2005F69BF /* OwTrackerPage2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwTrackerPage2ViewController.swift; sourceTree = "<group>"; };
+		5A3F3473A7BB768568FF4A2F /* Pods_GameScraperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameScraperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7781542C3FCB5AA1444D946D /* Pods-GameScraperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameScraperTests.debug.xcconfig"; path = "Target Support Files/Pods-GameScraperTests/Pods-GameScraperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8F7D367EA5322DFF3A1ABF9 /* Pods-GameScraperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameScraperTests.release.xcconfig"; path = "Target Support Files/Pods-GameScraperTests/Pods-GameScraperTests.release.xcconfig"; sourceTree = "<group>"; };
+		D662DDE0616F6D8AFDEBEB91 /* Pods_GameScraper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameScraper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFFDECD067CD27405E1FEEF /* Pods-GameScraper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameScraper.debug.xcconfig"; path = "Target Support Files/Pods-GameScraper/Pods-GameScraper.debug.xcconfig"; sourceTree = "<group>"; };
+		F9B8EBD0948729B8A23AB519 /* Pods-GameScraper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameScraper.release.xcconfig"; path = "Target Support Files/Pods-GameScraper/Pods-GameScraper.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50E4D37E25747D03005F69BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5577A3D2815C09E13F4D0A29 /* Pods_GameScraper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E4D39425747D07005F69BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDBA5B3B71D21E93244E404 /* Pods_GameScraperTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E4D39F25747D07005F69BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE50A3038EDAB5FFFEC1D89E /* Pods_GameScraperUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50126BF6258FDAEE002DD19C /* Apex View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				50126BF825925E01002DD19C /* ApexViewController.swift */,
+				50CA780F259277F3008FFD9C /* ApexTrackerGGViewController.swift */,
+			);
+			path = "Apex View Controllers";
+			sourceTree = "<group>";
+		};
+		50126BF7258FDB01002DD19C /* Valorant View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				50126BFA25926200002DD19C /* ValorantViewController.swift */,
+				50CA78112592807E008FFD9C /* ValorantTrackerGGViewController.swift */,
+			);
+			path = "Valorant View Controllers";
+			sourceTree = "<group>";
+		};
+		50158DC1257DD0FE00C9D7F7 /* OwTracker.com */ = {
+			isa = PBXGroup;
+			children = (
+				50E4D3B6257498B2005F69BF /* OwTrackerViewController.swift */,
+				50E4D3BF2579F8A2005F69BF /* OwTrackerPage2ViewController.swift */,
+				50E4D3B82577335C005F69BF /* OwTrackerTabBarViewController.swift */,
+			);
+			path = OwTracker.com;
+			sourceTree = "<group>";
+		};
+		50158DC4257DD1B900C9D7F7 /* Overbuff.com */ = {
+			isa = PBXGroup;
+			children = (
+				50158DC5257DD22E00C9D7F7 /* OverbuffViewController.swift */,
+				50158DC7257DD23D00C9D7F7 /* OverbuffPage2ViewController.swift */,
+				50158DC2257DD1B600C9D7F7 /* OverbuffTabBarViewController.swift */,
+			);
+			path = Overbuff.com;
+			sourceTree = "<group>";
+		};
+		50E4D37825747D03005F69BF = {
+			isa = PBXGroup;
+			children = (
+				50E4D38325747D03005F69BF /* GameScraper */,
+				50E4D39A25747D07005F69BF /* GameScraperTests */,
+				50E4D3A525747D07005F69BF /* GameScraperUITests */,
+				50E4D38225747D03005F69BF /* Products */,
+				B42B21AECD5CE083EE154762 /* Pods */,
+				6398155380D64EC5E31B8053 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50E4D38225747D03005F69BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50E4D38125747D03005F69BF /* GameTracker.app */,
+				50E4D39725747D07005F69BF /* GameScraperTests.xctest */,
+				50E4D3A225747D07005F69BF /* GameScraperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50E4D38325747D03005F69BF /* GameScraper */ = {
+			isa = PBXGroup;
+			children = (
+				50E4D38825747D03005F69BF /* HomeViewController.swift */,
+				50E4D3BC2578822F005F69BF /* Main.storyboard */,
+				50158DBF257DACE800C9D7F7 /* CustomButton.swift */,
+				50126BF6258FDAEE002DD19C /* Apex View Controllers */,
+				50E4D3BB25775A20005F69BF /* Ow View Controllers */,
+				50126BF7258FDB01002DD19C /* Valorant View Controllers */,
+				50E4D3BA2577596A005F69BF /* Supporting Files */,
+				50E4D39225747D07005F69BF /* Info.plist */,
+				50158DBD257D9BF800C9D7F7 /* Notes (To Do).rtf */,
+			);
+			path = GameScraper;
+			sourceTree = "<group>";
+		};
+		50E4D39A25747D07005F69BF /* GameScraperTests */ = {
+			isa = PBXGroup;
+			children = (
+				50E4D39B25747D07005F69BF /* GameScraperTests.swift */,
+				50E4D39D25747D07005F69BF /* Info.plist */,
+			);
+			path = GameScraperTests;
+			sourceTree = "<group>";
+		};
+		50E4D3A525747D07005F69BF /* GameScraperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50E4D3A625747D07005F69BF /* GameScraperUITests.swift */,
+				50E4D3A825747D07005F69BF /* Info.plist */,
+			);
+			path = GameScraperUITests;
+			sourceTree = "<group>";
+		};
+		50E4D3BA2577596A005F69BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50E4D38425747D03005F69BF /* AppDelegate.swift */,
+				50E4D38D25747D07005F69BF /* Assets.xcassets */,
+				50E4D38F25747D07005F69BF /* LaunchScreen.storyboard */,
+				50E4D38625747D03005F69BF /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50E4D3BB25775A20005F69BF /* Ow View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				50E4D3B4257490C9005F69BF /* OwViewController.swift */,
+				50158DC4257DD1B900C9D7F7 /* Overbuff.com */,
+				50158DC1257DD0FE00C9D7F7 /* OwTracker.com */,
+			);
+			path = "Ow View Controllers";
+			sourceTree = "<group>";
+		};
+		6398155380D64EC5E31B8053 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D662DDE0616F6D8AFDEBEB91 /* Pods_GameScraper.framework */,
+				5A3F3473A7BB768568FF4A2F /* Pods_GameScraperTests.framework */,
+				30E2D6F3046ED40A190C2EAF /* Pods_GameScraperUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B42B21AECD5CE083EE154762 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBFFDECD067CD27405E1FEEF /* Pods-GameScraper.debug.xcconfig */,
+				F9B8EBD0948729B8A23AB519 /* Pods-GameScraper.release.xcconfig */,
+				7781542C3FCB5AA1444D946D /* Pods-GameScraperTests.debug.xcconfig */,
+				C8F7D367EA5322DFF3A1ABF9 /* Pods-GameScraperTests.release.xcconfig */,
+				02406CCA83D6F833EE0764B9 /* Pods-GameScraperUITests.debug.xcconfig */,
+				2B1A1353A8DEF00E0C224D4D /* Pods-GameScraperUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50E4D38025747D03005F69BF /* GameScraper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E4D3AB25747D07005F69BF /* Build configuration list for PBXNativeTarget "GameScraper" */;
+			buildPhases = (
+				A6C403267010ED6CF0D4BCCC /* [CP] Check Pods Manifest.lock */,
+				50E4D37D25747D03005F69BF /* Sources */,
+				50E4D37E25747D03005F69BF /* Frameworks */,
+				50E4D37F25747D03005F69BF /* Resources */,
+				C452EB51D3A9825FA0E5A4CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameScraper;
+			productName = GameScraper;
+			productReference = 50E4D38125747D03005F69BF /* GameTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50E4D39625747D07005F69BF /* GameScraperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E4D3AE25747D07005F69BF /* Build configuration list for PBXNativeTarget "GameScraperTests" */;
+			buildPhases = (
+				95AB5575A780A0535DB33400 /* [CP] Check Pods Manifest.lock */,
+				50E4D39325747D07005F69BF /* Sources */,
+				50E4D39425747D07005F69BF /* Frameworks */,
+				50E4D39525747D07005F69BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50E4D39925747D07005F69BF /* PBXTargetDependency */,
+			);
+			name = GameScraperTests;
+			productName = GameScraperTests;
+			productReference = 50E4D39725747D07005F69BF /* GameScraperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50E4D3A125747D07005F69BF /* GameScraperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E4D3B125747D07005F69BF /* Build configuration list for PBXNativeTarget "GameScraperUITests" */;
+			buildPhases = (
+				7878D33ED964DB180016EE3A /* [CP] Check Pods Manifest.lock */,
+				50E4D39E25747D07005F69BF /* Sources */,
+				50E4D39F25747D07005F69BF /* Frameworks */,
+				50E4D3A025747D07005F69BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50E4D3A425747D07005F69BF /* PBXTargetDependency */,
+			);
+			name = GameScraperUITests;
+			productName = GameScraperUITests;
+			productReference = 50E4D3A225747D07005F69BF /* GameScraperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50E4D37925747D03005F69BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = JCApps;
+				TargetAttributes = {
+					50E4D38025747D03005F69BF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					50E4D39625747D07005F69BF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 50E4D38025747D03005F69BF;
+					};
+					50E4D3A125747D07005F69BF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 50E4D38025747D03005F69BF;
+					};
+				};
+			};
+			buildConfigurationList = 50E4D37C25747D03005F69BF /* Build configuration list for PBXProject "GameScraper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50E4D37825747D03005F69BF;
+			productRefGroup = 50E4D38225747D03005F69BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50E4D38025747D03005F69BF /* GameScraper */,
+				50E4D39625747D07005F69BF /* GameScraperTests */,
+				50E4D3A125747D07005F69BF /* GameScraperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50E4D37F25747D03005F69BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E4D3BE2578822F005F69BF /* Main.storyboard in Resources */,
+				50E4D39125747D07005F69BF /* LaunchScreen.storyboard in Resources */,
+				50E4D38E25747D07005F69BF /* Assets.xcassets in Resources */,
+				50158DBE257D9BF800C9D7F7 /* Notes (To Do).rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E4D39525747D07005F69BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E4D3A025747D07005F69BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7878D33ED964DB180016EE3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameScraperUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95AB5575A780A0535DB33400 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameScraperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6C403267010ED6CF0D4BCCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameScraper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C452EB51D3A9825FA0E5A4CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameScraper/Pods-GameScraper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameScraper/Pods-GameScraper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GameScraper/Pods-GameScraper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50E4D37D25747D03005F69BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CA78122592807E008FFD9C /* ValorantTrackerGGViewController.swift in Sources */,
+				50E4D38925747D03005F69BF /* HomeViewController.swift in Sources */,
+				50CA7810259277F3008FFD9C /* ApexTrackerGGViewController.swift in Sources */,
+				50158DC6257DD22E00C9D7F7 /* OverbuffViewController.swift in Sources */,
+				50E4D3C02579F8A2005F69BF /* OwTrackerPage2ViewController.swift in Sources */,
+				50E4D3B92577335C005F69BF /* OwTrackerTabBarViewController.swift in Sources */,
+				50126BF925925E01002DD19C /* ApexViewController.swift in Sources */,
+				50E4D38525747D03005F69BF /* AppDelegate.swift in Sources */,
+				50E4D3B5257490C9005F69BF /* OwViewController.swift in Sources */,
+				50158DC8257DD23D00C9D7F7 /* OverbuffPage2ViewController.swift in Sources */,
+				50126BFB25926201002DD19C /* ValorantViewController.swift in Sources */,
+				50E4D3B7257498B2005F69BF /* OwTrackerViewController.swift in Sources */,
+				50158DC3257DD1B600C9D7F7 /* OverbuffTabBarViewController.swift in Sources */,
+				50E4D38725747D03005F69BF /* SceneDelegate.swift in Sources */,
+				50158DC0257DACE800C9D7F7 /* CustomButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E4D39325747D07005F69BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E4D39C25747D07005F69BF /* GameScraperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E4D39E25747D07005F69BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E4D3A725747D07005F69BF /* GameScraperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50E4D39925747D07005F69BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50E4D38025747D03005F69BF /* GameScraper */;
+			targetProxy = 50E4D39825747D07005F69BF /* PBXContainerItemProxy */;
+		};
+		50E4D3A425747D07005F69BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50E4D38025747D03005F69BF /* GameScraper */;
+			targetProxy = 50E4D3A325747D07005F69BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50E4D38F25747D07005F69BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E4D39025747D07005F69BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		50E4D3BC2578822F005F69BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E4D3BD2578822F005F69BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50E4D3A925747D07005F69BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50E4D3AA25747D07005F69BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50E4D3AC25747D07005F69BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBFFDECD067CD27405E1FEEF /* Pods-GameScraper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXRG5889LN;
+				INFOPLIST_FILE = GameScraper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCApps.GameScraper;
+				PRODUCT_NAME = GameTracker;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50E4D3AD25747D07005F69BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9B8EBD0948729B8A23AB519 /* Pods-GameScraper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXRG5889LN;
+				INFOPLIST_FILE = GameScraper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCApps.GameScraper;
+				PRODUCT_NAME = GameTracker;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50E4D3AF25747D07005F69BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7781542C3FCB5AA1444D946D /* Pods-GameScraperTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXRG5889LN;
+				INFOPLIST_FILE = GameScraperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCApps.GameScraperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameScraper.app/GameScraper";
+			};
+			name = Debug;
+		};
+		50E4D3B025747D07005F69BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8F7D367EA5322DFF3A1ABF9 /* Pods-GameScraperTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXRG5889LN;
+				INFOPLIST_FILE = GameScraperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCApps.GameScraperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameScraper.app/GameScraper";
+			};
+			name = Release;
+		};
+		50E4D3B225747D07005F69BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02406CCA83D6F833EE0764B9 /* Pods-GameScraperUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXRG5889LN;
+				INFOPLIST_FILE = GameScraperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCApps.GameScraperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GameScraper;
+			};
+			name = Debug;
+		};
+		50E4D3B325747D07005F69BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B1A1353A8DEF00E0C224D4D /* Pods-GameScraperUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXRG5889LN;
+				INFOPLIST_FILE = GameScraperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCApps.GameScraperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GameScraper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50E4D37C25747D03005F69BF /* Build configuration list for PBXProject "GameScraper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E4D3A925747D07005F69BF /* Debug */,
+				50E4D3AA25747D07005F69BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E4D3AB25747D07005F69BF /* Build configuration list for PBXNativeTarget "GameScraper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E4D3AC25747D07005F69BF /* Debug */,
+				50E4D3AD25747D07005F69BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E4D3AE25747D07005F69BF /* Build configuration list for PBXNativeTarget "GameScraperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E4D3AF25747D07005F69BF /* Debug */,
+				50E4D3B025747D07005F69BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E4D3B125747D07005F69BF /* Build configuration list for PBXNativeTarget "GameScraperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E4D3B225747D07005F69BF /* Debug */,
+				50E4D3B325747D07005F69BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50E4D37925747D03005F69BF /* Project object */;
+}
